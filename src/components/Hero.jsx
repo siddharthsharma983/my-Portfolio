@@ -87,9 +87,9 @@ const Hero = () => {
             <div className="relative w-32 h-32 md:w-40 md:h-40 mx-auto">
               {/* Outer glow ring with enhanced size */}
               <div className="absolute inset-0 rounded-full bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 p-1.5 shadow-2xl animate-pulse-glow">
-                <div className="w-full h-full rounded-full bg-gradient-to-br from-gray-100 to-gray-200 dark:from-gray-700 dark:to-gray-800 flex items-center justify-center text-4xl md:text-5xl font-bold text-gray-700 dark:text-gray-200 shadow-inner">
+                <div className="w-full h-full rounded-full bg-gradient-to-br from-gray-100 to-gray-200 dark:from-gray-700 dark:to-gray-800 flex items-center justify-center text-6xl md:text-7xl font-bold text-gray-700 dark:text-gray-200 shadow-inner">
                   <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                    SM
+                    S
                   </span>
                 </div>
               </div>
