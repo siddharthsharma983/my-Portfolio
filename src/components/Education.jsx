@@ -4,6 +4,24 @@ const Education = () => {
   const education = [
     {
       id: 1,
+      degree: "Bachelor of Computer Applications (BCA)",
+      institution: "Vaish College of Engineering (MDU)",
+      location: "Rohtak (Haryana), India",
+      duration: "2022 - 2025",
+      status: "Complete",
+      description:
+        "Specialized in creating high-performance, visually appealing, and responsive user interfaces. Throughout my degree, I focused on mastering the art of converting complex designs into clean, functional code, with a strong emphasis on user accessibility and modern web standards.",
+      coursework: [
+        "Advanced Web Development (HTML5, CSS3, Modern JS)",
+        "User Interface (UI) Design Principles",
+        "Responsive Web Design & Frameworks",
+        "Client-Side Scripting",
+        "Computer Graphics",
+        "Software Engineering & Agile Development",
+      ],
+    },
+    {
+      id: 2,
       degree: "Master of Computer Applications (MCA)",
       institution: "Chandigarh University",
       location: "Chandigarh, India",
@@ -160,7 +178,6 @@ const Education = () => {
                           {edu.description}
                         </p>
                       )}
-
                       {/* Coursework */}
                       <div>
                         <h5 className="text-lg font-semibold text-gray-900 dark:text-white mb-3">
@@ -177,8 +194,7 @@ const Education = () => {
                           ))}
                         </div>
                       </div>
-
-                      {/* Achievements (SAFE) */}
+                      Achievements (SAFE)
                       {edu.achievements && (
                         <div>
                           <h5 className="text-lg font-semibold text-gray-900 dark:text-white mb-3">
