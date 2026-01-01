@@ -8,6 +8,7 @@ const Education = () => {
       institution: "Vaish College of Engineering (MDU)",
       location: "Rohtak (Haryana), India",
       duration: "2022 - 2025",
+      CGPA: "6.33",
       status: "Complete",
       description:
         "Specialized in creating high-performance, visually appealing, and responsive user interfaces. Throughout my degree, I focused on mastering the art of converting complex designs into clean, functional code, with a strong emphasis on user accessibility and modern web standards.",
