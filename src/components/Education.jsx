@@ -8,7 +8,7 @@ const Education = () => {
       institution: "Vaish College of Engineering (MDU)",
       location: "Rohtak (Haryana), India",
       duration: "2022 - 2025",
-      CGPA: "6.33",
+      marks: "1899/3000 (63.3%)",
       status: "Complete",
       description:
         "Specialized in creating high-performance, visually appealing, and responsive user interfaces. Throughout my degree, I focused on mastering the art of converting complex designs into clean, functional code, with a strong emphasis on user accessibility and modern web standards.",
@@ -165,7 +165,8 @@ const Education = () => {
                               {edu.status}
                             </span>
                             <span className="px-3 py-1 bg-primary-100 dark:bg-primary-900 text-primary-800 dark:text-primary-300 rounded-full text-xs font-medium">
-                              {edu.cgpa || edu.percentage || "—"}
+                              {/* Yahan maine marks ko add kiya hai display ke liye */}
+                              {edu.marks || edu.cgpa || edu.percentage || "—"}
                             </span>
                           </div>
                         </div>
@@ -195,7 +196,6 @@ const Education = () => {
                           ))}
                         </div>
                       </div>
-                      Achievements (SAFE)
                       {edu.achievements && (
                         <div>
                           <h5 className="text-lg font-semibold text-gray-900 dark:text-white mb-3">
