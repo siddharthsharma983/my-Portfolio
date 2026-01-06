@@ -2,7 +2,7 @@
 
 A **modern, responsive frontend portfolio website** built with **React, Vite, and Tailwind CSS**. This portfolio showcases my **frontend skills, projects, education, and achievements** in a clean, professional, and recruiter-friendly manner.
 
-🌐 **Live Portfolio:** (Add live portfolio link here)
+🌐 **Live Portfolio:**  https://my-portfolio-tau-puce-27.vercel.app/
 
 ---
 
