@@ -18,7 +18,6 @@ A **modern, responsive frontend portfolio website** built with **React, Vite, an
   * Skills
   * Projects
   * Education
-  * Achievements
   * Contact Form
 * Smooth navigation with anchor scrolling
 * SEO-optimized and fast performance using Vite
