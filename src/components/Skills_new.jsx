@@ -51,7 +51,7 @@ const Skills = () => {
       skills: [
         [
           { name: "React.js", icon: "⚛️" },
-          { name: "JavaScript (ES6+)", icon: "🟨" },
+          { name: "JavaScript", icon: "🟨" },
           { name: "HTML5", icon: "🌐" },
           { name: "CSS3", icon: "🎨" },
           { name: "Tailwind CSS", icon: "💨" },
