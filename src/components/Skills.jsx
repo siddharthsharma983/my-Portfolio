@@ -31,6 +31,7 @@ const Skills = () => {
     { name: "JavaScript", icon: "🟨" },
     { name: "HTML/CSS", icon: "🌐" },
     { name: "Tailwind CSS", icon: "🎨" },
+    { name: "Git & GitHub", icon: "📝" },
   ];
 
   const softSkills = [
